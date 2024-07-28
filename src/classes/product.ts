@@ -1,4 +1,4 @@
-import { CartItem } from "../../srp/entities/interfaces/car-item";
+import { CartItem } from "./interfaces/cart-item";
 
 export class Product implements CartItem {
   constructor(public name: string, public price: number) {}
